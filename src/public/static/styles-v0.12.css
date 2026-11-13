@@ -1,0 +1,296 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+.no-info {
+    font-size:10pt;
+    color: gray;
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* Constrain images on small screens */
+    max-width: 100%;
+}
+
+.maindiv
+{
+    padding: 15px;
+}
+
+/* One tile container */
+.picture {
+  display: inline-block;
+  width: 256px;         /* fixed tile width */
+  margin: 15px;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* Fixed image frame */
+.picture .thumb_picture {
+  width: 256px;
+  height: 192px;        /* fixed frame height */
+  /*border: 1px solid grey;*/
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;   /* centers small images vertically */
+  justify-content: center; /* centers horizontally */
+  overflow: hidden;
+}
+
+/* Image: never upscale; shrink if needed */
+.object_picture {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px;
+    width: auto !important;   /* defeat any inline width */
+    height: auto !important;  /* defeat any inline height */
+    display: block;
+    cursor: pointer;                 /* hand cursor */
+    transition: transform 0.2s ease; /* smooth hover effect */
+}
+
+.object_picture:hover {
+  transform: scale(1.02);          /* subtle zoom */
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+/* Caption under the frame */
+.picture .caption {
+    margin: 6px 0 0;
+    font-size: 0.85em;
+    line-height: 1.2em;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+
+/* for display pictures */
+.gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* CSS for modal picture */
+.lightbox {
+    display: none; 
+    position: fixed;
+    z-index: 9999;
+    padding-top: 60px;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+.lightbox-content {
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    margin: 5% auto;
+    max-width: 90%;
+    max-height: 80vh;
+    box-sizing: border-box;
+}
+
+.lightbox-content img {
+    max-width: 100%;
+    max-height: calc(80vh - 100px); /* leave ~100px for caption + padding */
+    display: block;
+    margin: 0 auto;
+}
+
+.lightbox-caption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #333;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 15px; right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contrib-link {
+    position: absolute;
+    top: 15px; left: 35px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* Remove decorator from hyperlink */
+a {
+    text-decoration:none;
+}
+
+/* For maps */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* For maps */
+.leaflet-container {
+    height: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* For tutorial */
+.body_tutorial {
+    position: relative;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    padding-top: 30px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+    z-index: 100;
+}
+.content_tutorial {
+    margin-left: 270px; /* espace pour la sidebar */
+}
+.sidebar a {
+    display: block;
+    padding: 4px 16px;
+    color: #333;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #e9ecef;
+}
+
+/* en relation avec MOD_ADVANCED_HORIZONS */
+
+/* Mise en évidence de la couleur sélectionnée pour les graphiques de comparaison horizon-contexte */
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000;   /* bordure noire pour contraste */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.color-choice {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+
+#types-list .card {
+  border: 1px solid #ddd;
+}
+
+#types-list [draggable="true"] {
+  cursor: grab;
+}
+
+#types-list [draggable="true"]:hover {
+  background-color: #f8f9fa;
+}
+
+.h-a-type-disabled {
+  color: #adb5bd !important;
+  font-style: italic;
+}
+
+.h-a-type-used {
+  color: #6c757d !important;
+  text-decoration: line-through;
+}
+
+/* Empêcher l'héritage sur les enfants */
+/*.card.disabled-logic .card-body .d-flex {
+  color: inherit;
+  font-style: normal;
+}*/
+
+.horizons-advanced-comp-links input[type="radio"].btn-check:checked + label {
+  border: 3px solid #000;   /* bordure noire épaisse */
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.color-modal-div-color input[type="radio"].btn-check:checked + label {
+  border: 3px solid #000;   /* bordure noire épaisse */
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.vertical-header {
+  writing-mode: vertical-rl;   /* texte vertical */
+  transform: rotate(180deg);   /* pour que le texte soit lisible de bas en haut */
+  text-align: start;
+  white-space: nowrap;         /* évite les retours à la ligne */
+}
+
+/* en relation avec MOD_GRAPHICS */
+
+/* Surbrillance des cartes au survol */
+.group-card.hovered {
+    background-color: #e3f2fd;
+    border: 2px dashed #2196F3;
+}
+
+/* Espace entre les cartes pendant le drag */
+.drop-indicator {
+    height: 20px;
+    background-color: #2196F3;
+    opacity: 0.5;
+    margin: 5px 0;
+    pointer-events: none;
+}

@@ -1,0 +1,7 @@
+            <h5>Welcome to the homepage of LOGACer or one of its installations</h5>
+            <p>LOGACer (<b>Online Software for the Management and Analysis of Ceramics</b>) was developed by Simon Dienst between 2025 and 2026. To make CeVICA available online, it was necessary to design a tool capable of efficiently presenting these data and the relationships between them.
+                In its first version, this tool was inseparable from the database itself and was called "DBCer", with rapid development and a non-institutional deployment as early as 2024.</p>
+            <p>In light of its identified potential, LOGACer underwent a complete rewrite and substantial improvements. The software, which is still under development, is becoming a comprehensive tool for sharing data (within a team or with the scientific community) relating to ceramics and glass, their illustrations and analytical results.
+                Furthermore, it is progressively being equipped with various analytical tools (particularly quantitative, statistical and cartographic tools), partially reducing the need for external software. Designed for easy deployment and configuration, it is particularly well suited to the study of archaeological assemblages from different sites within research projects that promote collaboration and Open Data.</p>
+            <p>For further information, please visit the <a href='https://www.logacer.org' target='_blank'>official LOGACer website</a>.</p>
+            <p>- Simon Dienst</p>

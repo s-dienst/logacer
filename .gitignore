@@ -1,0 +1,70 @@
+# Ignorer les fichiers temporaires
+# *.tmp
+
+# Ignorer les dossiers spécifiques
+_trash/
+_documentation/
+
+src/api/
+src/graphics/
+
+
+# Ignorer les fichiers spécifiques
+# variables.php
+src/config/cevica_test_2026-11-05.sql
+src/config/configuration_local.json
+src/config/configuration_ovh.json
+src/config/configuration_prod.json
+src/config/configuration.json
+src/config/schema_old.sql
+src/log/php-error.log
+src/public/lang/error.json
+src/index/contact_requests.txt
+src/public/lang/errors.json
+src/public/static/pictures_objects/
+
+src/public/static/ajax/graphics_advanced.php
+
+src/horizons/horizon copy.php
+src/horizons_advanced/seriation_save_code.php
+src/index/about_us.html
+src/index/contentdenied.html
+src/index/search.html
+src/lang_php/about_us_de.php
+src/lang_php/about_us_en.php
+src/lang_php/about_us_es.php
+src/lang_php/about_us_fr.php
+src/lang_php/about_us_it.php
+src/lang_php/gdpr_de.php
+src/lang_php/gdpr_en.php
+src/lang_php/gdpr_es.php
+src/lang_php/gdpr_fr.php
+src/lang_php/gdpr_it.php
+src/lang_php/index_de.php
+src/lang_php/index_en.php
+src/lang_php/index_es.php
+src/lang_php/index_fr.php
+src/lang_php/index_it.php
+src/lang_php/legals_de.php
+src/lang_php/legals_en.php
+src/lang_php/legals_es.php
+src/lang_php/legals_fr.php
+src/lang_php/legals_it.php
+src/lang_php/partnership_de.php
+src/lang_php/partnership_en.php
+src/lang_php/partnership_es.php
+src/lang_php/partnership_fr.php
+src/lang_php/partnership_it.php
+src/layout/thesaurus_OLD.php
+src/layout/variables_OLD.php
+src/ref/counting_methods.html
+src/ref/inventory.html
+src/ref/list_categories_without_link.html
+src/ref/list_fabrics_without_link.html
+src/ref/list_functions_without_link.html
+src/ref/list_types_without_link.html
+src/ref/list_countries_regions copy.php
+src/ref/unify_categories.html
+src/ref/unify_fabrics.html
+src/ref/unify_functions.html
+src/ref/unify_types.html

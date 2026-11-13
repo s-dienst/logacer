@@ -1,0 +1,2 @@
+        </br><a href='<?php echo create_url_proj(['legals']); ?>'><?php echo ucfirst(thesaurus("footer_legals")); ?></a> - <a href='<?php echo create_url_proj(['gdpr']); ?>'><?php echo ucfirst(thesaurus('footer_gdpr')); ?></a>
+        <?php long_translation("footer_translation"); ?>

@@ -1,0 +1,1 @@
+</br><b>Deutsche Übersetzung wird derzeit verbessert — Einen Fehler entdeckt? <a href="https://www.logacer.org/about_us#contact" target="_blank">Kontaktieren Sie uns</a>, um ihn zu melden.</b>

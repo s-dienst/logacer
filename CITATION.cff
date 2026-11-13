@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use LOGACer in your research, please cite this software and, where relevant, its associated scientific publication."
+title: "LOGACer"
+type: software
+
+authors:
+  - family-names: "DIENST"
+    given-names: "Simon"
+
+version: "2.0.0"
+date-released: "2026-11-11"
+
+url: "https://www.logacer.org"
+repository-code: "https://hdl.handle.net/2268/340248"
+
+license: "GPL-3.0-or-later"
+
+keywords:
+  - archaeology
+  - archaeological databases
+  - research software
+  - digital archaeology
+  - pottery studies
+  - glass studies
+  - archaeological ceramics
+  - seriation
+  - open science
+
+abstract: >-
+  LOGACer (Logiciel Online pour la Gestion et l'Analyse de la Céramique)
+  was initially developed under the name DBCer as part of the PhD
+  dissertation "Étude chronologique, économique et culturelle de la
+  vaisselle du Piano della Civita à Artena (Latium) depuis la République
+  romaine jusqu’à l’Antiquité tardive" (S. Dienst, 2024).
+  Its initial purpose was to structure and share the archaeological data
+  produced during this research in a format that could be fully exploited
+  by the scientific community, following the principles of Open Science
+  and Open Access.
+
+  The classification and sharing of archaeological data represent
+  important challenges for archaeological research. LOGACer provides
+  tools not only for making such data accessible, but also for comparing
+  and combining information produced by different research teams
+  collaborating on shared research questions.
+
+  The software is designed to be accessible to researchers wishing to
+  manage, analyse and share archaeological data, particularly relating
+  to archaeological artefacts, pottery and glassware.

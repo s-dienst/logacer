@@ -1,0 +1,1 @@
+</br><b>Traducción al español en proceso de mejora — ¿Has encontrado un error? <a href="https://www.logacer.org/about_us#contact" target="_blank">Contáctanos</a> para informarnos.</b>
